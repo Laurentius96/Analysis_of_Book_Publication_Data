@@ -6,6 +6,8 @@
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge)
 ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
@@ -34,7 +36,7 @@ This project explores a dataset of **1,070 books** with information on publishin
 - Clean and validate the raw data (missing values, invalid years, duplicates)
 - Understand how books are distributed by **year, genre and language**
 - Compare **ratings and sales** across genres and author ratings
-- Rank **publishers by revenue** and **authors by gross sales**
+- Rank **publishers by revenue** and total **gross sales by author**
 - Test statistically whether **famous authors sell more** than intermediate ones
 
 ## 🛠️ Technologies Used
@@ -74,7 +76,7 @@ This project explores a dataset of **1,070 books** with information on publishin
 - **Average rating** by author and **ratings count / average rating by genre** (box plots)
 - **Sale price vs. units sold**, **rating vs. ratings count** and **rating vs. units sold** (scatter plots, also filtered to books under 10,000 units)
 - **Language** share (pie chart) and **units sold per publishing year** (line chart)
-- **Publisher revenue** and **author gross sales** rankings
+- **Publisher revenue** ranking and **gross sales per author**
 - **Correlation matrix** of average rating, ratings count, gross sales and sale price
 
 ### 4️⃣ Hypothesis test
