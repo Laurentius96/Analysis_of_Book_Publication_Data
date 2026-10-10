@@ -12,7 +12,7 @@
 <p>
   <a href="#-overview">Overview</a> •
   <a href="#-objective">Objective</a> •
-  <a href="#-technologies-used">Technologies</a> •
+  <a href="#%EF%B8%8F-technologies-used">Technologies</a> •
   <a href="#-project-structure">Structure</a> •
   <a href="#-analysis-pipeline">Pipeline</a> •
   <a href="#-key-findings">Findings</a> •
