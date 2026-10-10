@@ -53,7 +53,7 @@ This project explores a dataset of **1,070 books** with information on publishin
 📁 Analysis_of_Book_Publication_Data/
 ├── 📁 Data/
 │   └── 📄 Books_Data_Clean.csv      # Dataset (1,070 rows, 15 columns)
-├── 📓 main.ipynb                    # Full analysis notebook
+├── 📓 main.ipynb                    # Full analysis notebook (15 sections)
 ├── 📄 LICENSE.md                    # CC BY-NC-ND 4.0
 └── 📄 README.md                     # This file
 ```
@@ -89,6 +89,7 @@ This project explores a dataset of **1,070 books** with information on publishin
 | 🌐 Languages | 8 language codes, mostly English variants (`eng`, `en-US`, `en-GB`, `en-CA`) |
 | ⭐ Author ratings | Intermediate (576), Excellent (336), Famous (48), Novice (28) |
 | 🏢 Top publishers by revenue | Penguin Group (USA) LLC, Random House LLC, Amazon Digital Services and HarperCollins Publishers |
+| 📈 Popularity vs. revenue | Ratings count correlates moderately with gross sales (**r ≈ 0.49**); the average rating barely does (r ≈ −0.04) |
 | 🧪 Famous vs. Intermediate authors | **t = −0.66, p = 0.51**: no statistically significant difference in units sold at the 5% level |
 
 > The test suggests that, in this dataset, author fame alone does not explain sales volume. Genre, price and publisher are worth investigating next.
@@ -108,13 +109,7 @@ This project explores a dataset of **1,070 books** with information on publishin
    pip install pandas matplotlib seaborn scipy jupyter
    ```
 
-3. **Point the notebook to the dataset.** In the first cell of `main.ipynb`, set the path to the file in this repository:
-
-   ```python
-   df = pd.read_csv("Data/Books_Data_Clean.csv")
-   ```
-
-4. **Run the analysis**
+3. **Run the analysis**
 
    ```bash
    jupyter notebook main.ipynb
@@ -124,8 +119,8 @@ This project explores a dataset of **1,070 books** with information on publishin
 
 ## 🔭 Next Steps
 
-- [ ] Use a relative path to the dataset in the notebook
-- [ ] Translate the remaining chart labels and comments to English
+- [x] Use a relative path to the dataset in the notebook
+- [x] Translate chart labels and comments to English and add section headers
 - [ ] Add a regression model for units sold (price, rating, genre, publisher)
 
 ## 🤝 Contributing
